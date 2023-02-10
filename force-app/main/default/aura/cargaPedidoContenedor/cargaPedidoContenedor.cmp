@@ -1,0 +1,6 @@
+<aura:component implements="force:hasRecordId,force:lightningQuickAction">
+    <aura:attribute name="recordId" type="String"/>
+    <h1>Hola Quick Action</h1>
+
+    <c:cargapedido recordId="{!v.recordId}"></c:cargapedido>
+</aura:component>
